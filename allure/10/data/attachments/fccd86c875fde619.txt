@@ -1,0 +1,14 @@
+
+################################################################################################################################################
+Starting Execution:	[1 out of 5] test cases in the current suite
+Test Method:		[tests.api.task.CatFact.testCatFactResponse]
+Test Description:	[TC001 - Check text is not empty ]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @15-08-2021 14:15:14.0295 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @15-08-2021 14:15:14.0314 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @15-08-2021 14:15:14.0321 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://cat-fact.herokuapp.com/facts/random?amount=1" | Content Type: "*/*" | Response Time: "1492ms"]. @15-08-2021 14:15:15.0479 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @15-08-2021 14:15:15.0708 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [text]. @15-08-2021 14:15:15.0723 PM
+[ReportManager] Assertion Passed: Text Is Not Empty @15-08-2021 14:15:15.0725 PM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [FALSE] and Actual [FALSE]. Validation Type [NEGATIVE]. @15-08-2021 14:15:15.0725 P

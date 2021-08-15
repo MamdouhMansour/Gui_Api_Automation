@@ -1,0 +1,16 @@
+{
+  "createdAt": "2018-03-31T20:20:02.618Z",
+  "deleted": false,
+  "__v": 0,
+  "_id": "5a12460add20f9001fb45060",
+  "text": "The softest part of a cat is most definitely its cheek area.",
+  "source": "user",
+  "used": false,
+  "type": "cat",
+  "user": "5a9ac18c7478810ea6c06381",
+  "status": {
+    "verified": true,
+    "sentCount": 1
+  },
+  "updatedAt": "2020-08-23T20:20:01.611Z"
+}

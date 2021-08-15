@@ -1,0 +1,548 @@
+{
+  "uid" : "7f7c52f41e79ddf2",
+  "name" : "TC003 - Check dynamic loading Example2",
+  "fullName" : "tests.gui.task.TestHerokuapp.testDynamicLoading",
+  "historyId" : "eb4dcbd91fabb985d130c779e50e7dd8",
+  "time" : {
+    "start" : 1629036920444,
+    "stop" : 1629036927592,
+    "duration" : 7148
+  },
+  "description" : "Check that loading working successfully",
+  "descriptionHtml" : "<p>Check that loading working successfully</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1629036917425,
+      "stop" : 1629036920414,
+      "duration" : 2989
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution.",
+      "time" : {
+        "start" : 1629036917462,
+        "stop" : 1629036917463,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "14"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened [GoogleChrome].",
+      "time" : {
+        "start" : 1629036918813,
+        "stop" : 1629036918813,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "15"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [GoogleChrome]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/].",
+      "time" : {
+        "start" : 1629036920414,
+        "stop" : 1629036920414,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "16"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1629036916507,
+      "stop" : 1629036917424,
+      "duration" : 917
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/TestData.xlsx].",
+      "time" : {
+        "start" : 1629036917422,
+        "stop" : 1629036917423,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "969940587ddc005",
+        "name" : "Attachment: Test Data - Excel",
+        "source" : "969940587ddc005.xlsx",
+        "type" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size" : 11882
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "13"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/TestData.xlsx]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Test Data, Excel, java.io.FileInputStream@3e6a55fb]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Check that loading working successfully",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Element Action [Click] successfully performed. With the following test data [Dynamic Loading].",
+      "time" : {
+        "start" : 1629036921213,
+        "stop" : 1629036921213,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "17"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Click] successfully performed. With the following test data [Dynamic Loading]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [Click] successfully performed. With the following test data [Example 2: Element rendered after the fact].",
+      "time" : {
+        "start" : 1629036921809,
+        "stop" : 1629036921809,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "18"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Click] successfully performed. With the following test data [Example 2: Element rendered after the fact]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [Click] successfully performed. With the following test data [Start].",
+      "time" : {
+        "start" : 1629036922263,
+        "stop" : 1629036922264,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "19"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Click] successfully performed. With the following test data [Start]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [WaitForElementToBePresent] successfully performed. With the following test data [waited for the element's state of presence to be (true). Element locator (By.id: finish)].",
+      "time" : {
+        "start" : 1629036927469,
+        "stop" : 1629036927469,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "20"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [WaitForElementToBePresent] successfully performed. With the following test data [waited for the element's state of presence to be (true). Element locator (By.id: finish)]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [GetText] successfully performed. With the following test data [Hello World!].",
+      "time" : {
+        "start" : 1629036927589,
+        "stop" : 1629036927589,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "21"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [GetText] successfully performed. With the following test data [Hello World!]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion [ValidateEquals] PASSED. Expected [Hello World!] and Actual [Hello World!]. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1629036927591,
+        "stop" : 1629036927591,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "22"
+      }, {
+        "name" : "logText",
+        "value" : "Assertion [ValidateEquals] PASSED. Expected [Hello World!] and Actual [Hello World!]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "29378dcc157de0d1",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: testDynamicLoading",
+      "source" : "29378dcc157de0d1.txt",
+      "type" : "text/plain",
+      "size" : 1628
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1629036927598,
+      "stop" : 1629036928095,
+      "duration" : 497
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browser Action [CloseCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1629036928094,
+        "stop" : 1629036928095,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "47e670c838a42127",
+        "name" : "Attachment: Browser Action Test Data - CloseCurrentWindow - Actual Value",
+        "source" : "47e670c838a42127.html",
+        "type" : "text/html",
+        "size" : 2292
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "23"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [CloseCurrentWindow] successfully performed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - CloseCurrentWindow, Actual Value, <html class=\"no-js\" lang=\"en\"><!--<![endif]--><head>\n    <script src=\"/js/vendor/298279967.js\"></script>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title>The Internet</title>\n    <link href=\"/css/app.css\" rel=\"stylesheet\">\n    <link href=\"/css/font-awesome.css\" rel=\"stylesheet\">\n    <script src=\"/js/vendor/jquery-1.11.3.min.js\"></script>\n    <script src=\"/js/vendor/jquery-ui-1.11.4/jquery-ui.js\"></script>\n    <script src=\"/js/foundation/foundation.js\"></script><meta class=\"foundation-mq-small\"><meta class=\"foundation-mq-medium\"><meta class=\"foundation-mq-large\"><style></style>\n    <script src=\"/js/foundation/foundation.alerts.js\"></script>\n    <script>\n      $(document).foundation();\n    </script>\n  </head>\n  <body>\n    <div class=\"row\">\n      <div id=\"flash-messages\" class=\"large-12 columns\">\n      \n        \n      \n        \n      \n        \n      \n      </div>\n    </div>\n    <div class=\"row\">\n      <a href=\"https://github.com/tourdedave/the-internet\"><img style=\"position: absolute; top: 0; right: 0; border: 0;\" src=\"/img/forkme_right_green_007200.png\" alt=\"Fork me on GitHub\"></a>\n      <div id=\"content\" class=\"large-12 columns\">\n        <script>\n  $(function(){\n    $('#start button').click(function(){\n      $('#start').hide();\n      $('#start').before(\"<div id='loading'>Loading... <img src='/img/ajax-loader.gif'></div>\");\n      setTimeout(function() {\n        $('#loading').hide();\n        $('#loading').before(\"<div id='finish' style='display:none'><h4>Hello World!</h4></div>\")\n        $('#finish').show();\n      } , 5000 );\n    });\n  });\n</script>\n\n<div class=\"example\">\n  <h3>Dynamically Loaded Page Elements</h3>\n  <h4>Example 2: Element rendered after the fact</h4>\n\n  <br>\n\n  <div id=\"finish\" style=\"\"><h4>Hello World!</h4></div><div id=\"loading\" style=\"display: none;\">Loading... <img src=\"/img/ajax-loader.gif\"></div><div id=\"start\" style=\"display: none;\">\n    <button>Start</button>\n  </div>\n\n\n  <br>\n</div>\n\n      </div>\n    </div>\n    <div id=\"page-footer\" class=\"row\">\n      <div class=\"large-4 large-centered columns\">\n        <hr>\n        <div style=\"text-align: center;\">Powered by <a target=\"_blank\" href=\"http://elementalselenium.com/\">Elemental Selenium</a></div>\n      </div>\n    </div>\n  \n\n</body></html>]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "99d5ce2f34b2fbcf",
+      "name" : "Attachment: Selenium WebDriver Logs - server",
+      "source" : "99d5ce2f34b2fbcf.txt",
+      "type" : "text/plain",
+      "size" : 1300
+    }, {
+      "uid" : "4a33e22149495acb",
+      "name" : "Attachment: Selenium WebDriver Logs - performance",
+      "source" : "4a33e22149495acb.txt",
+      "type" : "text/plain",
+      "size" : 171255
+    }, {
+      "uid" : "53a9d8ecd8cfc259",
+      "name" : "Attachment: Selenium WebDriver Logs - browser",
+      "source" : "53a9d8ecd8cfc259.txt",
+      "type" : "text/plain",
+      "size" : 3487
+    }, {
+      "uid" : "dc24cdf5d4571be5",
+      "name" : "Attachment: Selenium WebDriver Logs - driver",
+      "source" : "dc24cdf5d4571be5.txt",
+      "type" : "text/plain",
+      "size" : 548541
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1629036936657,
+      "stop" : 1629036936927,
+      "duration" : 270
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1629036936657,
+        "stop" : 1629036936657,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "39"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1629036936667,
+        "stop" : 1629036936668,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ead99d502358b172",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210815-141536",
+        "source" : "ead99d502358b172.csv",
+        "type" : "text/csv",
+        "size" : 268
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "40"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210815-141536, java.io.ByteArrayInputStream@6ddb5117]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "91823434b7608426",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210815-141536",
+      "source" : "91823434b7608426.txt",
+      "type" : "text/plain",
+      "size" : 13767
+    }, {
+      "uid" : "d504306fbaefc7d2",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "d504306fbaefc7d2.html",
+      "type" : "text/html",
+      "size" : 36727
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.gui.task.TestHerokuapp"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.gui.task.TestHerokuapp"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDynamicLoading"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.gui.task.TestHerokuapp"
+  }, {
+    "name" : "host",
+    "value" : "fv-az81-606"
+  }, {
+    "name" : "thread",
+    "value" : "3937@fv-az81-606.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Given opened dynamic loading page when press on Example2 then I can see that loading bar in progress and page reloads and redirect to the target link of this dynamic loading page and shows the correct message "
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "93f24d59db7a20ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590208260863,
+        "stop" : 1590208274816,
+        "duration" : 13953
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "310fde9d9aabb55d",
+        "reportUrl" : "https://MamdouhMansour.github.io/Gui_Api_Automation/allure/9//#testresult/310fde9d9aabb55d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628992825608,
+          "stop" : 1628992832965,
+          "duration" : 7357
+        }
+      }, {
+        "uid" : "8b3631554f73f3ab",
+        "reportUrl" : "https://MamdouhMansour.github.io/Gui_Api_Automation/allure/8//#testresult/8b3631554f73f3ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628992381158,
+          "stop" : 1628992388480,
+          "duration" : 7322
+        }
+      }, {
+        "uid" : "d8872894f750cfc6",
+        "reportUrl" : "https://MamdouhMansour.github.io/Gui_Api_Automation/allure/7//#testresult/d8872894f750cfc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628990916194,
+          "stop" : 1628990923436,
+          "duration" : 7242
+        }
+      }, {
+        "uid" : "d40d36adecbcf4a2",
+        "reportUrl" : "https://MamdouhMansour.github.io/Gui_Api_Automation/allure/6//#testresult/d40d36adecbcf4a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628990381521,
+          "stop" : 1628990388945,
+          "duration" : 7424
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7f7c52f41e79ddf2.json",
+  "parameterValues" : [ ]
+}
