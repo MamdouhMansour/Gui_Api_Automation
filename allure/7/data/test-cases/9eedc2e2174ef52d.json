@@ -1,0 +1,275 @@
+{
+  "uid" : "9eedc2e2174ef52d",
+  "name" : "TC001 - Check text is not empty ",
+  "fullName" : "tests.api.task.CatFact.testCatFactResponse",
+  "historyId" : "c4f33b1c46064dd740e77e68e002be02",
+  "time" : {
+    "start" : 1628990907584,
+    "stop" : 1628990911544,
+    "duration" : 3960
+  },
+  "description" : "Check that text in the response body is not empty in the random fact",
+  "descriptionHtml" : "<p>Check that text in the response body is not empty in the random fact</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Check that text in the response body is not empty in the random fact",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assertion Passed: Evaluating the actual response status code against the expected one...",
+      "time" : {
+        "start" : 1628990910282,
+        "stop" : 1628990910289,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: Evaluating the actual response status code against the expected one..."
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateEquals] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "API Action [PerformRequest] successfully performed. With the following test data [Request Type: \"GET\" | Target Status Code: \"200\" | Service URL: \"https://cat-fact.herokuapp.com/facts/random?amount=1\" | Content Type: \"*/*\" | Response Time: \"1140ms\"].",
+      "time" : {
+        "start" : 1628990911281,
+        "stop" : 1628990911499,
+        "duration" : 218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a706a5687ad22486",
+        "name" : "Attachment: API Response - JSON Body",
+        "source" : "a706a5687ad22486.json",
+        "type" : "text/json",
+        "size" : 423
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "API Action [PerformRequest] successfully performed. With the following test data [Request Type: \"GET\" | Target Status Code: \"200\" | Service URL: \"https://cat-fact.herokuapp.com/facts/random?amount=1\" | Content Type: \"*/*\" | Response Time: \"1140ms\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null, [API Response, JSON Body, java.io.ByteArrayInputStream@529fda9f]]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Assertion Passed: Text Is Not Empty",
+      "time" : {
+        "start" : 1628990911525,
+        "stop" : 1628990911525,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: Text Is Not Empty"
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateTrue] PASSED. Expected [FALSE] and Actual [FALSE]. Validation Type [NEGATIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9edb68fda697f922",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: testCatFactResponse",
+      "source" : "9edb68fda697f922.txt",
+      "type" : "text/plain",
+      "size" : 1635
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1628990931666,
+      "stop" : 1628990931946,
+      "duration" : 280
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1628990931666,
+        "stop" : 1628990931666,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "39"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1628990931689,
+        "stop" : 1628990931690,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43ca1c8fb5936e6",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20210815-012851",
+        "source" : "43ca1c8fb5936e6.csv",
+        "type" : "text/csv",
+        "size" : 268
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "40"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20210815-012851, java.io.ByteArrayInputStream@6ddb5117]]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6c0bd5e058ac1df3",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210815-012851",
+      "source" : "6c0bd5e058ac1df3.txt",
+      "type" : "text/plain",
+      "size" : 13767
+    }, {
+      "uid" : "8e7433640e926a89",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "8e7433640e926a89.html",
+      "type" : "text/html",
+      "size" : 36766
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.api.task.CatFact"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.api.task.CatFact"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCatFactResponse"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.api.task.CatFact"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-600"
+  }, {
+    "name" : "thread",
+    "value" : "3860@fv-az77-600.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fe0fce2c05a54188",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590208218950,
+        "stop" : 1590208225417,
+        "duration" : 6467
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "9f3e40eaca25cb1d",
+        "reportUrl" : "https://MamdouhMansour.github.io/Gui_Api_Automation/allure/6//#testresult/9f3e40eaca25cb1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628990371324,
+          "stop" : 1628990376466,
+          "duration" : 5142
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9eedc2e2174ef52d.json",
+  "parameterValues" : [ ]
+}
