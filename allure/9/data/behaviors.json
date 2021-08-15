@@ -1,0 +1,82 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "TC001 - Check text is not empty ",
+    "uid" : "eab1d1eddc042f52",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628992816442,
+      "stop" : 1628992820771,
+      "duration" : 4329
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC001 - Check text is not empty ",
+    "uid" : "5298a4cd5b1b7444",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628992820872,
+      "stop" : 1628992821634,
+      "duration" : 762
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Given opened dynamic loading page when press on Example2 then I can see that loading bar in progress and page reloads and redirect to the target link of this dynamic loading page and shows the correct message ",
+    "children" : [ {
+      "name" : "TC003 - Check dynamic loading Example2",
+      "uid" : "310fde9d9aabb55d",
+      "parentUid" : "4f643fc24e73b65f253caa4cf057fb39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628992825608,
+        "stop" : 1628992832965,
+        "duration" : 7357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4f643fc24e73b65f253caa4cf057fb39"
+  }, {
+    "name" : "Given opened file upload page when choose file to upload and press upload button then I can see that the file chose correclty and page reloads and shows that file uploaded successfully with the correct file name",
+    "children" : [ {
+      "name" : "TC002 - Check file upload",
+      "uid" : "e9db033ac261dd4f",
+      "parentUid" : "91b2e543f0ec27d5c9fe10ba5bac54a4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628992835768,
+        "stop" : 1628992836794,
+        "duration" : 1026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "91b2e543f0ec27d5c9fe10ba5bac54a4"
+  }, {
+    "name" : "Given I am on Google home page When type search keywords and press search Then I can see suggested search list with the right length according to business that fetched from database correctlyand page loads and redirect to search results page with the matching results that matched from the database",
+    "children" : [ {
+      "name" : "TC001 - Check third search result text",
+      "uid" : "a3337a80caa024ef",
+      "parentUid" : "04f71fe6f887ec430d146e5ddfe71728",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628992839141,
+        "stop" : 1628992841848,
+        "duration" : 2707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "04f71fe6f887ec430d146e5ddfe71728"
+  } ],
+  "name" : "behaviors"
+}

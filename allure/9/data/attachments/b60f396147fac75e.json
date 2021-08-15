@@ -1,0 +1,16 @@
+{
+  "createdAt": "2018-01-04T01:10:54.673Z",
+  "deleted": false,
+  "__v": 0,
+  "used": false,
+  "source": "api",
+  "_id": "591f97c28dec2e14e3c20af9",
+  "text": "Has your cat ever brought its prey to your door? Cats do that because they regard their owners as their \"kittens.\" The cats are teaching their \"kittens\" how to hunt by bringing them food. Most people aren\u0027t too delighted when a pet brings in their kill. Instead of punishing your cat, praise it for its efforts, accept the prey, and then secretly throw it away.",
+  "type": "cat",
+  "user": "5a9ac18c7478810ea6c06381",
+  "updatedAt": "2020-05-10T20:20:11.457Z",
+  "status": {
+    "verified": true,
+    "sentCount": 1
+  }
+}

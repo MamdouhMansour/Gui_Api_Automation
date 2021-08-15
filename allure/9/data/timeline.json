@@ -1,0 +1,138 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Mamdouh-PC",
+    "children" : [ {
+      "name" : "11600@Mamdouh-PC.main(1)",
+      "children" : [ {
+        "name" : "TC001 - Check third search result text",
+        "uid" : "ebabb3e8abe64ead",
+        "parentUid" : "4cad1484f9f7b64b538cc92d9487d6fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590208237138,
+          "stop" : 1590208246225,
+          "duration" : 9087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC003 - Check dynamic loading Example2",
+        "uid" : "5f24eed6285c944d",
+        "parentUid" : "4cad1484f9f7b64b538cc92d9487d6fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590208260863,
+          "stop" : 1590208274816,
+          "duration" : 13953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC002 - Check file upload",
+        "uid" : "9e608b77fed71bda",
+        "parentUid" : "4cad1484f9f7b64b538cc92d9487d6fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590208285217,
+          "stop" : 1590208292179,
+          "duration" : 6962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC001 - Check text is not empty ",
+        "uid" : "a0a9fd55fd98364b",
+        "parentUid" : "4cad1484f9f7b64b538cc92d9487d6fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590208218950,
+          "stop" : 1590208225417,
+          "duration" : 6467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cad1484f9f7b64b538cc92d9487d6fd"
+    } ],
+    "uid" : "293615a48c9cdc3ede560b221eedf318"
+  }, {
+    "name" : "fv-az83-831",
+    "children" : [ {
+      "name" : "3948@fv-az83-831.main(1)",
+      "children" : [ {
+        "name" : "TC002 - Check file upload",
+        "uid" : "e9db033ac261dd4f",
+        "parentUid" : "cfea7c818aa711391eb796231d6f5384",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628992835768,
+          "stop" : 1628992836794,
+          "duration" : 1026
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC001 - Check third search result text",
+        "uid" : "a3337a80caa024ef",
+        "parentUid" : "cfea7c818aa711391eb796231d6f5384",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628992839141,
+          "stop" : 1628992841848,
+          "duration" : 2707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC001 - Check text is not empty ",
+        "uid" : "eab1d1eddc042f52",
+        "parentUid" : "cfea7c818aa711391eb796231d6f5384",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628992816442,
+          "stop" : 1628992820771,
+          "duration" : 4329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC003 - Check dynamic loading Example2",
+        "uid" : "310fde9d9aabb55d",
+        "parentUid" : "cfea7c818aa711391eb796231d6f5384",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628992825608,
+          "stop" : 1628992832965,
+          "duration" : 7357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC001 - Check text is not empty ",
+        "uid" : "5298a4cd5b1b7444",
+        "parentUid" : "cfea7c818aa711391eb796231d6f5384",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628992820872,
+          "stop" : 1628992821634,
+          "duration" : 762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cfea7c818aa711391eb796231d6f5384"
+    } ],
+    "uid" : "9e832cbeafaf29f052d8c644386a480c"
+  } ],
+  "name" : "timeline"
+}

@@ -1,0 +1,51 @@
+[ {
+  "uid" : "310fde9d9aabb55d",
+  "name" : "TC003 - Check dynamic loading Example2",
+  "time" : {
+    "start" : 1628992825608,
+    "stop" : 1628992832965,
+    "duration" : 7357
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5298a4cd5b1b7444",
+  "name" : "TC001 - Check text is not empty ",
+  "time" : {
+    "start" : 1628992820872,
+    "stop" : 1628992821634,
+    "duration" : 762
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9db033ac261dd4f",
+  "name" : "TC002 - Check file upload",
+  "time" : {
+    "start" : 1628992835768,
+    "stop" : 1628992836794,
+    "duration" : 1026
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a3337a80caa024ef",
+  "name" : "TC001 - Check third search result text",
+  "time" : {
+    "start" : 1628992839141,
+    "stop" : 1628992841848,
+    "duration" : 2707
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "eab1d1eddc042f52",
+  "name" : "TC001 - Check text is not empty ",
+  "time" : {
+    "start" : 1628992816442,
+    "stop" : 1628992820771,
+    "duration" : 4329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

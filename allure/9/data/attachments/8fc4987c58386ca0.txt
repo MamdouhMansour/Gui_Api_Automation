@@ -1,0 +1,8 @@
+
+################################################################################################################################################
+Starting Execution:	[4 out of 5] test cases in the current suite
+Test Method:		[tests.gui.task.TestHerokuapp.testFileUpload]
+Test Description:	[TC002 - Check file upload]
+################################################################################################################################################
+[ReportManager] Element Action [Click] successfully performed. With the following test data [File Upload]. @15-08-2021 02:00:36.0655 AM
+[ReportManager] Element Action [TypeFileLocationForUpload] failed. With the following test data [C://Users//Mamdouh//git//Gui_Api_Automation/img.jpg]. @15-08-2021 02:00:36.0787 A
