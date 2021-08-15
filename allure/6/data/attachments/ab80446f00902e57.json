@@ -1,0 +1,16 @@
+{
+  "createdAt": "2019-01-22T11:58:42.096Z",
+  "deleted": false,
+  "__v": 0,
+  "_id": "5c470572a99c3f00140fe4bd",
+  "text": "Cats like being brushed by their owners, because it reminds them of their mother.",
+  "source": "user",
+  "used": false,
+  "type": "cat",
+  "user": "5c470492a99c3f00140fe4bc",
+  "status": {
+    "verified": true,
+    "sentCount": 1
+  },
+  "updatedAt": "2020-08-23T20:20:01.611Z"
+}

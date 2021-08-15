@@ -1,0 +1,104 @@
+{
+  "c4f33b1c46064dd740e77e68e002be02" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f3e40eaca25cb1d",
+      "reportUrl" : "https://MamdouhMansour.github.io/Gui_Api_Automation/allure/6//#testresult/9f3e40eaca25cb1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628990371324,
+        "stop" : 1628990376466,
+        "duration" : 5142
+      }
+    } ]
+  },
+  "60fb0d6b196025b00c296079c3f31797" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec12efe588645310",
+      "reportUrl" : "https://MamdouhMansour.github.io/Gui_Api_Automation/allure/6//#testresult/ec12efe588645310",
+      "status" : "failed",
+      "statusDetails" : "Element Action [TypeFileLocationForUpload] failed. With the following test data [C://Users//Mamdouh//git//Gui_Api_Automation/img.jpg].",
+      "time" : {
+        "start" : 1628990391714,
+        "stop" : 1628990392854,
+        "duration" : 1140
+      }
+    } ]
+  },
+  "eb4dcbd91fabb985d130c779e50e7dd8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d40d36adecbcf4a2",
+      "reportUrl" : "https://MamdouhMansour.github.io/Gui_Api_Automation/allure/6//#testresult/d40d36adecbcf4a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628990381521,
+        "stop" : 1628990388945,
+        "duration" : 7424
+      }
+    } ]
+  },
+  "37badce60b98d0b59c7f101ec1cd4930" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7bea9e30f68eed11",
+      "reportUrl" : "https://MamdouhMansour.github.io/Gui_Api_Automation/allure/6//#testresult/7bea9e30f68eed11",
+      "status" : "failed",
+      "statusDetails" : "Assertion [ValidateEquals] FAILED. Expected [What is Selenium WebDriver?] and Actual [Selenium WebDriver]. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1628990395155,
+        "stop" : 1628990397655,
+        "duration" : 2500
+      }
+    } ]
+  },
+  "74d6bfe7c73c66a492e12289e7ed776" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e06a4bea11608958",
+      "reportUrl" : "https://MamdouhMansour.github.io/Gui_Api_Automation/allure/6//#testresult/e06a4bea11608958",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628990376591,
+        "stop" : 1628990377217,
+        "duration" : 626
+      }
+    } ]
+  }
+}

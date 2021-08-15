@@ -1,0 +1,90 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "SHAFT: Custom Suite",
+    "children" : [ {
+      "name" : "SHAFT: Custom Test",
+      "children" : [ {
+        "name" : "tests.api.task.CatFact",
+        "children" : [ {
+          "name" : "TC001 - Check text is not empty ",
+          "uid" : "9f3e40eaca25cb1d",
+          "parentUid" : "337c8c318484f6944752d777bc0b7086",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628990371324,
+            "stop" : 1628990376466,
+            "duration" : 5142
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "TC001 - Check text is not empty ",
+          "uid" : "e06a4bea11608958",
+          "parentUid" : "337c8c318484f6944752d777bc0b7086",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628990376591,
+            "stop" : 1628990377217,
+            "duration" : 626
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "337c8c318484f6944752d777bc0b7086"
+      }, {
+        "name" : "tests.gui.task.TestHerokuapp",
+        "children" : [ {
+          "name" : "TC003 - Check dynamic loading Example2",
+          "uid" : "d40d36adecbcf4a2",
+          "parentUid" : "a6dcf51cfd45d96cdb57adfbc7a2a855",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628990381521,
+            "stop" : 1628990388945,
+            "duration" : 7424
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "TC002 - Check file upload",
+          "uid" : "ec12efe588645310",
+          "parentUid" : "a6dcf51cfd45d96cdb57adfbc7a2a855",
+          "status" : "failed",
+          "time" : {
+            "start" : 1628990391714,
+            "stop" : 1628990392854,
+            "duration" : 1140
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a6dcf51cfd45d96cdb57adfbc7a2a855"
+      }, {
+        "name" : "tests.gui.task.TestSearchResults",
+        "children" : [ {
+          "name" : "TC001 - Check third search result text",
+          "uid" : "7bea9e30f68eed11",
+          "parentUid" : "0c4cdb5a96a3e435e461eb5f91b15767",
+          "status" : "failed",
+          "time" : {
+            "start" : 1628990395155,
+            "stop" : 1628990397655,
+            "duration" : 2500
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0c4cdb5a96a3e435e461eb5f91b15767"
+      } ],
+      "uid" : "62b459a2d7652d6aea6a24c119fa3f77"
+    } ],
+    "uid" : "5543348f55088c3669a8bed2f979ca17"
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,484 @@
+{
+  "uid" : "77cceda903c2f629",
+  "name" : "TC002 - Check file upload",
+  "fullName" : "tests.gui.task.TestHerokuapp.testFileUpload",
+  "historyId" : "60fb0d6b196025b00c296079c3f31797",
+  "time" : {
+    "start" : 1590208285217,
+    "stop" : 1590208292179,
+    "duration" : 6962
+  },
+  "description" : "Check that file uploaded successfully",
+  "descriptionHtml" : "<p>Check that file uploaded successfully</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1590208275546,
+      "stop" : 1590208285206,
+      "duration" : 9660
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [34]: Attempting to run locally on: [Windows-64], [GoogleChrome].",
+      "time" : {
+        "start" : 1590208275546,
+        "stop" : 1590208275546,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Attempting to run locally on: [Windows-64], [GoogleChrome]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "34"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Action [35]: Identifying OS/Browser combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...",
+      "time" : {
+        "start" : 1590208275547,
+        "stop" : 1590208275547,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Identifying OS/Browser combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time..."
+      }, {
+        "name" : "actionCounter",
+        "value" : "35"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Action [36]: Successfully Opened Google Chrome.",
+      "time" : {
+        "start" : 1590208278783,
+        "stop" : 1590208278783,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Successfully Opened Google Chrome."
+      }, {
+        "name" : "actionCounter",
+        "value" : "36"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Action [37]: Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1552, 840)].",
+      "time" : {
+        "start" : 1590208282232,
+        "stop" : 1590208282233,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1552, 840)]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "37"
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Action [38]: Browser Action [navigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/].",
+      "time" : {
+        "start" : 1590208285206,
+        "stop" : 1590208285206,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Browser Action [navigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "38"
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  } ],
+  "testStage" : {
+    "description" : "Check that file uploaded successfully",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [41]: Element Action [click] successfully performed. With the following test data [File Upload].",
+      "time" : {
+        "start" : 1590208288174,
+        "stop" : 1590208288174,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Element Action [click] successfully performed. With the following test data [File Upload]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "41"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Action [42]: Element Action [typeFileLocationForUpload] successfully performed. With the following test data [C:\\\\Users\\\\Mamdouh\\\\git\\\\Gui_Api_Automation\\img.jpg].",
+      "time" : {
+        "start" : 1590208289005,
+        "stop" : 1590208289006,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Element Action [typeFileLocationForUpload] successfully performed. With the following test data [C:\\\\Users\\\\Mamdouh\\\\git\\\\Gui_Api_Automation\\img.jpg]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "42"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Action [43]: Element Action [click] successfully performed.",
+      "time" : {
+        "start" : 1590208291295,
+        "stop" : 1590208291296,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Element Action [click] successfully performed."
+      }, {
+        "name" : "actionCounter",
+        "value" : "43"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Action [44]: Element Action [getText] successfully performed. With the following test data [img.jpg].",
+      "time" : {
+        "start" : 1590208292171,
+        "stop" : 1590208292172,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Element Action [getText] successfully performed. With the following test data [img.jpg]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "44"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Action [45]: AssertEquals PASSED; Expected [.jpg] and Actual [img.jpg]. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1590208292172,
+        "stop" : 1590208292172,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "AssertEquals PASSED; Expected [.jpg] and Actual [img.jpg]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "45"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Action [46]: An Exception Occured with this Message: Session ID is null. Using WebDriver after calling quit()?.",
+      "time" : {
+        "start" : 1590208292176,
+        "stop" : 1590208292178,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "49b99d16a5de3f0b",
+        "name" : "Attachment: Exception Stack Trace - org.openqa.selenium.NoSuchSessionException",
+        "source" : "49b99d16a5de3f0b.txt",
+        "type" : "text/plain",
+        "size" : 2511
+      } ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "An Exception Occured with this Message: Session ID is null. Using WebDriver after calling quit()?."
+      }, {
+        "name" : "actionCounter",
+        "value" : "46"
+      }, {
+        "name" : "attachments",
+        "value" : "[[Exception Stack Trace, org.openqa.selenium.NoSuchSessionException, org.openqa.selenium.NoSuchSessionException:\r\nSession ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MAMDOUH-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'\nDriver info: driver.version: RemoteWebDriver\r\norg.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\norg.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\norg.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:922)\r\ncom.shaft.gui.element.ElementActions.switchToDefaultContent(ElementActions.java:888)\r\ncom.shaft.tools.listeners.InvokedMethodListener.afterInvocation(InvokedMethodListener.java:81)\r\norg.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:60)\r\norg.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)\r\norg.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:631)\r\norg.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\norg.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\norg.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\r\norg.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\norg.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\norg.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\njava.base/java.util.ArrayList.forEach(ArrayList.java:1507)\r\norg.testng.TestRunner.privateRun(TestRunner.java:766)\r\norg.testng.TestRunner.run(TestRunner.java:587)\r\norg.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\norg.testng.SuiteRunner.run(SuiteRunner.java:286)\r\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\norg.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\norg.testng.TestNG.runSuites(TestNG.java:1039)\r\norg.testng.TestNG.run(TestNG.java:1007)\r\norg.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\norg.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\norg.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n]]"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "4e3f4da872db3b21",
+      "name" : "Attachment: Animated Gif - testFileUpload",
+      "source" : "4e3f4da872db3b21.gif",
+      "type" : "image/gif",
+      "size" : 142613
+    }, {
+      "uid" : "797059f840adcdc7",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: testFileUpload",
+      "source" : "797059f840adcdc7.txt",
+      "type" : "text/plain",
+      "size" : 1525
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1590208292181,
+      "stop" : 1590208292886,
+      "duration" : 705
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [48]: Browser Action [closeCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1590208292882,
+        "stop" : 1590208292885,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b94b0d58e8151756",
+        "name" : "Attachment: Browser Action Test Data - closeCurrentWindow - Actual Value",
+        "source" : "b94b0d58e8151756.html",
+        "type" : "text/html",
+        "size" : 1638
+      } ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Browser Action [closeCurrentWindow] successfully performed."
+      }, {
+        "name" : "actionCounter",
+        "value" : "48"
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - closeCurrentWindow, Actual Value, <html class=\"no-js\" lang=\"en\"><!--<![endif]--><head>\n    <script src=\"/js/vendor/298279967.js\"></script>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title>The Internet</title>\n    <link href=\"/css/app.css\" rel=\"stylesheet\">\n    <link href=\"/css/font-awesome.css\" rel=\"stylesheet\">\n    <script src=\"/js/vendor/jquery-1.11.3.min.js\"></script>\n    <script src=\"/js/vendor/jquery-ui-1.11.4/jquery-ui.js\"></script>\n    <script src=\"/js/foundation/foundation.js\"></script><meta class=\"foundation-mq-small\"><meta class=\"foundation-mq-medium\"><meta class=\"foundation-mq-large\"><style></style>\n    <script src=\"/js/foundation/foundation.alerts.js\"></script>\n    <script>\n      $(document).foundation();\n    </script>\n  </head>\n  <body>\n    <div class=\"row\">\n      <div id=\"flash-messages\" class=\"large-12 columns\">\n      \n        \n      \n        \n      \n        \n      \n      </div>\n    </div>\n    <div class=\"row\">\n      <a href=\"https://github.com/tourdedave/the-internet\"><img style=\"position: absolute; top: 0; right: 0; border: 0;\" src=\"/img/forkme_right_green_007200.png\" alt=\"Fork me on GitHub\"></a>\n      <div id=\"content\" class=\"large-12 columns\">\n        <div class=\"example\">\n  <h3>File Uploaded!</h3>\n\n  <div id=\"uploaded-files\" class=\"panel text-center\">\n    img.jpg\n  </div>\n</div>\n\n      </div>\n    </div>\n    <div id=\"page-footer\" class=\"row\">\n      <div class=\"large-4 large-centered columns\">\n        <hr>\n        <div style=\"text-align: center;\">Powered by <a target=\"_blank\" href=\"http://elementalselenium.com/\">Elemental Selenium</a></div>\n      </div>\n    </div>\n  \n\n</body></html>]]"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "64393eeb036cf5c8",
+      "name" : "Attachment: Selenium WebDriver Logs - browser",
+      "source" : "64393eeb036cf5c8.txt",
+      "type" : "text/plain",
+      "size" : 2346
+    }, {
+      "uid" : "3997fe9c953aa7dc",
+      "name" : "Attachment: Selenium WebDriver Logs - driver",
+      "source" : "3997fe9c953aa7dc.txt",
+      "type" : "text/plain",
+      "size" : 1118
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1590208292904,
+      "stop" : 1590208292924,
+      "duration" : 20
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [51]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1590208292907,
+        "stop" : 1590208292907,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      }, {
+        "name" : "actionCounter",
+        "value" : "51"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Action [52]: Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1590208292921,
+        "stop" : 1590208292922,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b757b098cbac4728",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20200523-063132",
+        "source" : "b757b098cbac4728.csv",
+        "type" : "text/csv",
+        "size" : 148
+      } ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "actionCounter",
+        "value" : "52"
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20200523-063132, java.io.ByteArrayInputStream@7dfc0fda]]"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "3cdab76a4e77a112",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20200523-063132",
+      "source" : "3cdab76a4e77a112.txt",
+      "type" : "text/plain",
+      "size" : 14084
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.gui.task.TestHerokuapp"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.gui.task.TestHerokuapp"
+  }, {
+    "name" : "testMethod",
+    "value" : "testFileUpload"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Sample Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: GUI Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.gui.task.TestHerokuapp"
+  }, {
+    "name" : "host",
+    "value" : "Mamdouh-PC"
+  }, {
+    "name" : "thread",
+    "value" : "11600@Mamdouh-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Given opened file upload page when choose file to upload and press upload button then I can see that the file chose correclty and page reloads and shows that file uploaded successfully with the correct file name"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77cceda903c2f629.json",
+  "parameterValues" : [ ]
+}
