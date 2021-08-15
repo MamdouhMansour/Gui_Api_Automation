@@ -1,0 +1,20 @@
+
+################################################################################################################################################
+Starting Execution:	[2 out of 5] test cases in the current suite
+Test Method:		[tests.api.task.CatFact.testCatFactResponse1]
+Test Description:	[TC001 - Check text is not empty ]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @15-08-2021 01:52:57.0009 AM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @15-08-2021 01:52:57.0010 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @15-08-2021 01:52:57.0010 AM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://cat-fact.herokuapp.com/facts?animal_type=cat,horse" | Content Type: "*/*" | Response Time: "457ms"]. @15-08-2021 01:52:57.0059 AM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @15-08-2021 01:52:57.0061 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [_id]. @15-08-2021 01:52:57.0103 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @15-08-2021 01:52:57.0104 AM
+[ReportManager] Either actual value is "null" or couldn't find anything that matches with the desired jsonPath [status[1].feedback] @15-08-2021 01:52:57.0171 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [status[1].feedback]. @15-08-2021 01:52:57.0171 AM
+[ReportManager] Assertion [ValidateNull] PASSED. Expected [NULL] and Actual [NULL]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @15-08-2021 01:52:57.0171 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @15-08-2021 01:52:57.0173 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @15-08-2021 01:52:57.0173 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @15-08-2021 01:52:57.0174 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @15-08-2021 01:52:57.0174 A

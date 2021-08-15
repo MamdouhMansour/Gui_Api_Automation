@@ -1,0 +1,15 @@
+
+################################################################################################################################################
+Starting Execution:	[3 out of 4] test cases in the current suite
+Test Method:		[tests.gui.task.TestHerokuapp.testDynamicLoading]
+Test Description:	[TC003 - Check dynamic loading Example2]
+################################################################################################################################################
+[ReportManager] File Action [createFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20200523-063018", Target File: "\1590208261621_testDynamicLoading.gif"]. @23-05-2020 06:31:01.0779 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Dynamic Loading]. @23-05-2020 06:31:03.0756 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Example 2: Element rendered after the fact]. @23-05-2020 06:31:06.0170 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Start]. @23-05-2020 06:31:08.0080 AM
+[ReportManager] Waiting for element to be present; elementLocator [By.id: finish], numberOfTries[3], stateOfPresence[true]... @23-05-2020 06:31:08.0084 AM
+[ReportManager] Element Action [waitForElementToBePresent] successfully performed. With the following test data [waited up to (15) seconds, for the element's state of presence to be (true). Element locator (By.id: finish)]. @23-05-2020 06:31:13.0936 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Hello World!]. @23-05-2020 06:31:14.0788 AM
+[ReportManager] AssertEquals PASSED; Expected [Hello World!] and Actual [Hello World!]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @23-05-2020 06:31:14.0788 AM
+[ReportManager] Successfully created attachment [Animated Gif - testDynamicLoading] @23-05-2020 06:31:14.0812 AM

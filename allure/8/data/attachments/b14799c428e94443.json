@@ -1,0 +1,16 @@
+{
+  "createdAt": "2018-01-04T01:10:54.673Z",
+  "deleted": false,
+  "__v": 0,
+  "_id": "591f98883b90f7150a19c264",
+  "text": "The chlorine in fresh tap water irritates sensitive parts of the cat\u0027s nose. Let tap water sit for 24 hours before giving it to a cat.",
+  "source": "api",
+  "used": false,
+  "type": "cat",
+  "user": "5a9ac18c7478810ea6c06381",
+  "status": {
+    "verified": true,
+    "sentCount": 1
+  },
+  "updatedAt": "2020-08-23T20:20:01.611Z"
+}
