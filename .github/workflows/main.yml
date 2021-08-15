@@ -13,34 +13,55 @@ jobs:
   build:
     name: Test on Ubuntu
     runs-on: [ubuntu-latest]
-    
+
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up JDK 15
-      uses: actions/setup-java@v2
-      with:
-        java-version: 15
-        distribution: 'zulu'
-    - name: Set up Native Selenium Grid with one hub and four Chrome nodes 
-      run: docker-compose -f docker-compose_native.yml up --scale chrome=4 --remove-orphans -d
-    - name: Check running containers
-      run: docker ps
-    - name: Run tests - Chrome Headless
-      continue-on-error: true
-      run: mvn test
-    - name: Generate Allure report
-      run: mvn allure:report
-    - name: Copy patch file to allure-maven-plugin folder
-      run: cp src/main/resources/allow-file-access_open-report_chrome_windows.bat target/site/allure-maven-plugin
-    - name: Check files in the allure-maven-plugin folder
-      run: ls target/site/allure-maven-plugin
-    - name: Upload Allure Report
-      uses: actions/upload-artifact@v2
-      with:
-        name: Allure Report
-        path: "target/site/allure-maven-plugin"
-    - name: Upload Extent Report
-      uses: actions/upload-artifact@v2
-      with:
-        name: Extent Report
-        path: "ExtentReports.html"
+      - name: Checkout Code
+        uses: actions/checkout@v2.3.4
+      #- name: Set up Zalenium
+      #  run: docker-compose -f docker-compose_zalenium.yml up --force-recreate -d
+      - name: Set up Native Selenium Grid
+        run: docker-compose -f docker-compose_native.yml up --scale chrome=4 --remove-orphans -d
+      - name: Set up JDK 15
+        uses: actions/setup-java@v2
+        with:
+          java-version: '15'
+          distribution: 'zulu'
+      - name: Check running containers
+        run: docker ps
+      - name: Run all tests
+        continue-on-error: true
+        run: mvn test -DexecutionAddress="localhost:4444" -DtargetOperatingSystem="Linux-64" -DmaximumPerformanceMode="2" -DtargetBrowserName="GoogleChrome" -Dtest="!%regex[.*selfRelease.*], !%regex[.*BuildAndRelease.*], !%regex[.*checksum.*], !%regex[.*cucumber.*], !%regex[.*sikulix.*], !%regex[.*imageComparison.*], !%regex[.*FileActions.*], !%regex[.*TerminalActions.*], !%regex[.*localShell.*], !%regex[.*fullPageScreenshotWithHeader.*], !%regex[.*dbConnection.*], !%regex[.*Appium.*]"
+      - name: Get Allure history
+        uses: actions/checkout@v2.3.4
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+      - name: Generate Allure Report with history
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+          allure_results: allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+          subfolder: allure
+ #     - name: Deploy Allure report to Github Pages
+ #       uses: peaceiris/actions-gh-pages@v3.8.0
+ #       with:
+ #         personal_token: ${{ secrets.GITHUB_TOKEN }}
+ #         publish_dir: allure-history/allure
+ #         destination_dir: allure
+ #         publish_branch: gh-pages
+ #     - name: Post the link to the Allure report
+ #       if: always()
+ #       continue-on-error: true
+ #       uses: Sibz/github-status-action@v1.1.5
+ #       with: 
+ #           authToken: ${{secrets.GITHUB_TOKEN}}
+ #           context: 'Allure Test Execution Report'
+ #           state: 'success'
+ #           sha: ${{ github.event.pull_request.head.sha }}
+ #           target_url: https://mohabmohie.github.io/SHAFT_ENGINE/allure/${{ github.run_number }}
