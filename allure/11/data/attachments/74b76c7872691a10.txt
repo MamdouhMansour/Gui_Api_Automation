@@ -1,0 +1,6 @@
+
+################################################################################################################################################
+Starting Execution:	[3 out of 3] test cases in the current suite
+Test Method:		[tests.gui.task.TestSearchResults.seaerchForQueryAndAssertThirdResultText]
+Test Description:	[TC001 - Check third search result text]
+###############################################################################################################################################

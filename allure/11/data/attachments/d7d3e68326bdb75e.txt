@@ -1,0 +1,6 @@
+
+################################################################################################################################################
+Starting Execution:	[1 out of 3] test cases in the current suite
+Test Method:		[tests.gui.task.TestHerokuapp.testDynamicLoading]
+Test Description:	[TC003 - Check dynamic loading Example2]
+###############################################################################################################################################

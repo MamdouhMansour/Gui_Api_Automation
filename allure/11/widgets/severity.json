@@ -1,0 +1,51 @@
+[ {
+  "uid" : "99fd2a9779497c8",
+  "name" : "beforeMethod",
+  "time" : {
+    "start" : 1629088961641,
+    "stop" : 1629088961642,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bffc4973426841c3",
+  "name" : "TC001 - Check third search result text",
+  "time" : {
+    "start" : 1629088961942,
+    "stop" : 1629088961945,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "69042d26beadef5b",
+  "name" : "beforeMethod",
+  "time" : {
+    "start" : 1629088961901,
+    "stop" : 1629088961902,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "11cc144b80af73b2",
+  "name" : "TC003 - Check dynamic loading Example2",
+  "time" : {
+    "start" : 1629088961425,
+    "stop" : 1629088961485,
+    "duration" : 60
+  },
+  "status" : "skipped",
+  "severity" : "blocker"
+}, {
+  "uid" : "984205ef1e7a565b",
+  "name" : "TC002 - Check file upload",
+  "time" : {
+    "start" : 1629088961667,
+    "stop" : 1629088961672,
+    "duration" : 5
+  },
+  "status" : "skipped",
+  "severity" : "blocker"
+} ]

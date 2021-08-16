@@ -1,0 +1,47 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.3.20210519]
+################################################################################################################################################
+[ReportManager] Successfully loaded the following test data file [src/test/resources/TestDataFiles/TestData.xlsx]. @16-08-2021 04:42:32.0532 AM
+[ReportManager] Successfully created attachment [Test Data - Excel] @16-08-2021 04:42:32.0534 A
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @16-08-2021 04:42:32.0562 AM
+[ReportManager] Attempting to run locally on: [Linux-64], [GoogleChrome]. @16-08-2021 04:42:32.0586 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @16-08-2021 04:42:32.0587 A
+
+################################################################################################################################################
+Starting Execution:	[1 out of 3] test cases in the current suite
+Test Method:		[tests.gui.task.TestHerokuapp.testDynamicLoading]
+Test Description:	[TC003 - Check dynamic loading Example2]
+###############################################################################################################################################
+
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @16-08-2021 04:42:41.0494 AM
+[ReportManager] Attempting to run locally on: [Linux-64], [GoogleChrome]. @16-08-2021 04:42:41.0495 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @16-08-2021 04:42:41.0495 A
+
+################################################################################################################################################
+Starting Execution:	[2 out of 3] test cases in the current suite
+Test Method:		[tests.gui.task.TestHerokuapp.testFileUpload]
+Test Description:	[TC002 - Check file upload]
+###############################################################################################################################################
+
+[ReportManager] Successfully loaded the following test data file [src/test/resources/TestDataFiles/TestData.xlsx]. @16-08-2021 04:42:41.0743 AM
+[ReportManager] Successfully created attachment [Test Data - Excel] @16-08-2021 04:42:41.0744 A
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @16-08-2021 04:42:41.0745 AM
+[ReportManager] Attempting to run locally on: [Linux-64], [GoogleChrome]. @16-08-2021 04:42:41.0745 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @16-08-2021 04:42:41.0746 A
+
+################################################################################################################################################
+Starting Execution:	[3 out of 3] test cases in the current suite
+Test Method:		[tests.gui.task.TestSearchResults.seaerchForQueryAndAssertThirdResultText]
+Test Description:	[TC001 - Check third search result text]
+###############################################################################################################################################
+
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @16-08-2021 04:42:41.0963 AM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.3.20210519]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################

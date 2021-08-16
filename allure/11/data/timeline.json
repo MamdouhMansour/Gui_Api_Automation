@@ -1,0 +1,91 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az81-606",
+    "children" : [ {
+      "name" : "3974@fv-az81-606.main(1)",
+      "children" : [ {
+        "name" : "beforeMethod",
+        "uid" : "99fd2a9779497c8",
+        "parentUid" : "6c4b2570808b0d6459c91e2491510d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629088961641,
+          "stop" : 1629088961642,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "beforeMethod",
+        "uid" : "69042d26beadef5b",
+        "parentUid" : "6c4b2570808b0d6459c91e2491510d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629088961901,
+          "stop" : 1629088961902,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC001 - Check third search result text",
+        "uid" : "bffc4973426841c3",
+        "parentUid" : "6c4b2570808b0d6459c91e2491510d56",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629088961942,
+          "stop" : 1629088961945,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC002 - Check file upload",
+        "uid" : "984205ef1e7a565b",
+        "parentUid" : "6c4b2570808b0d6459c91e2491510d56",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629088961667,
+          "stop" : 1629088961672,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC003 - Check dynamic loading Example2",
+        "uid" : "11cc144b80af73b2",
+        "parentUid" : "6c4b2570808b0d6459c91e2491510d56",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629088961425,
+          "stop" : 1629088961485,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "beforeMethod",
+        "uid" : "a057a2ef16ff7f1a",
+        "parentUid" : "6c4b2570808b0d6459c91e2491510d56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629088961355,
+          "stop" : 1629088961357,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c4b2570808b0d6459c91e2491510d56"
+    } ],
+    "uid" : "6ce4884fad25b4c8fc6f3ba3442f5f0e"
+  } ],
+  "name" : "timeline"
+}
