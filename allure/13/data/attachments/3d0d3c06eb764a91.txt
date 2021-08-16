@@ -1,0 +1,11 @@
+
+################################################################################################################################################
+Starting Execution:	[2 out of 5] test cases in the current suite
+Test Method:		[tests.api.task.CatFact.testCatFactResponse1]
+Test Description:	[TC001 - Check text is not empty ]
+################################################################################################################################################
+[ReportManager] Response status code: [503], status line: [HTTP/1.1 503 Service Unavailable] @16-08-2021 04:59:38.0423 AM
+[ReportManager] Assertion Failed: Evaluating the actual response status code against the expected one... @16-08-2021 04:59:38.0423 AM
+[ReportManager] Assertion [ValidateEquals] FAILED. Expected [200] and Actual [503]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @16-08-2021 04:59:38.0424 AM
+[ReportManager] API Action [PerformRequest] failed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://cat-fact.herokuapp.com/facts?animal_type=cat,horse" | Content Type: "*/*" | Response Time: "55410ms"]. @16-08-2021 04:59:38.0427 AM
+[ReportManager] Successfully created attachment [API Response - Body] @16-08-2021 04:59:38.0427 A

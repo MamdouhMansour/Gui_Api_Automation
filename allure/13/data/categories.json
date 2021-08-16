@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "API Action [PerformRequest] failed. With the following test data [Request Type: \"GET\" | Target Status Code: \"200\" | Service URL: \"https://cat-fact.herokuapp.com/facts/random?amount=1\" | Content Type: \"*/*\" | Response Time: \"56543ms\"].",
+      "children" : [ {
+        "name" : "TC001 - Check text is not empty ",
+        "uid" : "1a9d85b2bc089b27",
+        "parentUid" : "ec90d126970ac4fffc005d2ec192f719",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629089864029,
+          "stop" : 1629089922894,
+          "duration" : 58865
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec90d126970ac4fffc005d2ec192f719"
+    }, {
+      "name" : "API Action [PerformRequest] failed. With the following test data [Request Type: \"GET\" | Target Status Code: \"200\" | Service URL: \"https://cat-fact.herokuapp.com/facts?animal_type=cat,horse\" | Content Type: \"*/*\" | Response Time: \"55410ms\"].",
+      "children" : [ {
+        "name" : "TC001 - Check text is not empty ",
+        "uid" : "20b17c4517d930dd",
+        "parentUid" : "2bfaf0968dbbebe218dfee25ac69765a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629089923006,
+          "stop" : 1629089978430,
+          "duration" : 55424
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2bfaf0968dbbebe218dfee25ac69765a"
+    }, {
+      "name" : "Element Action [TypeFileLocationForUpload] failed. With the following test data [C://Users//Mamdouh//git//Gui_Api_Automation/img.jpg].",
+      "children" : [ {
+        "name" : "TC002 - Check file upload",
+        "uid" : "8c0172466cd72c93",
+        "parentUid" : "e04bdb286744dcb99f3bcfdbe95a738d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629089993315,
+          "stop" : 1629089994347,
+          "duration" : 1032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e04bdb286744dcb99f3bcfdbe95a738d"
+    }, {
+      "name" : "Assertion [ValidateEquals] FAILED. Expected [What is Selenium WebDriver?] and Actual [The Selenium Browser Automation Project :: Documentation ...]. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "children" : [ {
+        "name" : "TC001 - Check third search result text",
+        "uid" : "36739ff362f47b84",
+        "parentUid" : "ec03d41eea032359127f54b997fd0522",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629089996723,
+          "stop" : 1629089999214,
+          "duration" : 2491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec03d41eea032359127f54b997fd0522"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,13 @@
+
+################################################################################################################################################
+Starting Execution:	[3 out of 5] test cases in the current suite
+Test Method:		[tests.gui.task.TestHerokuapp.testDynamicLoading]
+Test Description:	[TC003 - Check dynamic loading Example2]
+################################################################################################################################################
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Dynamic Loading]. @16-08-2021 04:59:43.0855 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Example 2: Element rendered after the fact]. @16-08-2021 04:59:44.0527 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Start]. @16-08-2021 04:59:45.0065 AM
+[ReportManager] Waiting for element to be present; elementLocator [By.id: finish], numberOfTries[3], stateOfPresence[true]... @16-08-2021 04:59:45.0073 AM
+[ReportManager] Element Action [WaitForElementToBePresent] successfully performed. With the following test data [waited for the element's state of presence to be (true). Element locator (By.id: finish)]. @16-08-2021 04:59:50.0268 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Hello World!]. @16-08-2021 04:59:50.0392 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [Hello World!] and Actual [Hello World!]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @16-08-2021 04:59:50.0395 A

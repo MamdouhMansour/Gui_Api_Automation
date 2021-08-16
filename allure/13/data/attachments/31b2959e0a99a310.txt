@@ -1,0 +1,13 @@
+
+################################################################################################################################################
+Starting Execution:	[1 out of 4] test cases in the current suite
+Test Method:		[tests.api.task.CatFact.testCatFactResponse]
+Test Description:	[TC001 - Check text is not empty ]
+################################################################################################################################################
+[ReportManager] Evaluating the actual response status code against the expected one...... @23-05-2020 06:30:23.0760 AM
+[ReportManager] AssertEquals PASSED; Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @23-05-2020 06:30:23.0771 AM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://cat-fact.herokuapp.com/facts/random?amount=1" | Content Type: "*/*" | Response Time: "2216ms"]. @23-05-2020 06:30:25.0340 AM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @23-05-2020 06:30:25.0346 AM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [text]. @23-05-2020 06:30:25.0379 AM
+[ReportManager] Text Is Not Empty... @23-05-2020 06:30:25.0382 AM
+[ReportManager] AssertTrue PASSED; Expected [FALSE] and Actual [FALSE]. Validation Type [NEGATIVE]. @23-05-2020 06:30:25.0383 AM
