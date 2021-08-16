@@ -1,0 +1,41 @@
+[ {
+  "uid" : "58212eeb76e9d8e6",
+  "name" : "TC001 - Check third search result text",
+  "time" : {
+    "start" : 1629089414104,
+    "stop" : 1629089416425,
+    "duration" : 2321
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "21c1bd8e85b4aac0",
+  "name" : "TC001 - Check text is not empty ",
+  "time" : {
+    "start" : 1590208218950,
+    "stop" : 1590208225417,
+    "duration" : 6467
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d813dba312c9bfd",
+  "name" : "TC002 - Check file upload",
+  "time" : {
+    "start" : 1629089411188,
+    "stop" : 1629089412025,
+    "duration" : 837
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "78cb5368bbea69f9",
+  "name" : "TC003 - Check dynamic loading Example2",
+  "time" : {
+    "start" : 1629089402055,
+    "stop" : 1629089409220,
+    "duration" : 7165
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

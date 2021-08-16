@@ -1,0 +1,13 @@
+
+################################################################################################################################################
+Starting Execution:	[4 out of 4] test cases in the current suite
+Test Method:		[tests.gui.task.TestHerokuapp.testFileUpload]
+Test Description:	[TC002 - Check file upload]
+################################################################################################################################################
+[ReportManager] File Action [createFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20200523-063018", Target File: "\1590208285968_testFileUpload.gif"]. @23-05-2020 06:31:26.0015 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [File Upload]. @23-05-2020 06:31:28.0174 AM
+[ReportManager] Element Action [typeFileLocationForUpload] successfully performed. With the following test data [C:\\Users\\Mamdouh\\git\\Gui_Api_Automation\img.jpg]. @23-05-2020 06:31:29.0006 AM
+[ReportManager] Element Action [click] successfully performed. @23-05-2020 06:31:31.0295 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [img.jpg]. @23-05-2020 06:31:32.0172 AM
+[ReportManager] AssertEquals PASSED; Expected [.jpg] and Actual [img.jpg]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @23-05-2020 06:31:32.0172 AM
+[ReportManager] Successfully created attachment [Animated Gif - testFileUpload] @23-05-2020 06:31:32.0175 AM

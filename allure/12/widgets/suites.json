@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "5543348f55088c3669a8bed2f979ca17",
+    "name" : "SHAFT: Custom Suite",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "5584263cd96a0f5e7f5463b4579f25d4",
+    "name" : "SHAFT_Engine: Sample Test Suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

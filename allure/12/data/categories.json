@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element Action [TypeFileLocationForUpload] failed. With the following test data [C://Users//Mamdouh//git//Gui_Api_Automation/img.jpg].",
+      "children" : [ {
+        "name" : "TC002 - Check file upload",
+        "uid" : "9d813dba312c9bfd",
+        "parentUid" : "e04bdb286744dcb99f3bcfdbe95a738d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629089411188,
+          "stop" : 1629089412025,
+          "duration" : 837
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e04bdb286744dcb99f3bcfdbe95a738d"
+    }, {
+      "name" : "Assertion [ValidateEquals] FAILED. Expected [What is Selenium WebDriver?] and Actual [The Selenium Browser Automation Project :: Documentation ...]. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "children" : [ {
+        "name" : "TC001 - Check third search result text",
+        "uid" : "58212eeb76e9d8e6",
+        "parentUid" : "ec03d41eea032359127f54b997fd0522",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629089414104,
+          "stop" : 1629089416425,
+          "duration" : 2321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec03d41eea032359127f54b997fd0522"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
