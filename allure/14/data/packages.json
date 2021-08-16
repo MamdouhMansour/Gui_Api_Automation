@@ -6,26 +6,26 @@
       "name" : "api.task.CatFact",
       "children" : [ {
         "name" : "testCatFactResponse",
-        "uid" : "c0a18bee88f52a05",
+        "uid" : "b86833dc6f093047",
         "parentUid" : "635629cd88e4c14dacc8bee7892124cb",
         "status" : "failed",
         "time" : {
-          "start" : 1629094984265,
-          "stop" : 1629095041903,
-          "duration" : 57638
+          "start" : 1629095400625,
+          "stop" : 1629095458641,
+          "duration" : 58016
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "testCatFactResponse1",
-        "uid" : "4ef00d8f9732c6a9",
+        "uid" : "11229b40a18fa89f",
         "parentUid" : "635629cd88e4c14dacc8bee7892124cb",
         "status" : "failed",
         "time" : {
-          "start" : 1629095042016,
-          "stop" : 1629095097162,
-          "duration" : 55146
+          "start" : 1629095458735,
+          "stop" : 1629095514188,
+          "duration" : 55453
         },
         "flaky" : false,
         "newFailed" : false,
@@ -38,26 +38,26 @@
         "name" : "TestHerokuapp",
         "children" : [ {
           "name" : "testDynamicLoading",
-          "uid" : "afe52742713ee776",
+          "uid" : "19f72866409a7500",
           "parentUid" : "23e17bc88a444f43c3a60af9b2c72ae0",
           "status" : "passed",
           "time" : {
-            "start" : 1629095100507,
-            "stop" : 1629095107662,
-            "duration" : 7155
+            "start" : 1629095518192,
+            "stop" : 1629095525299,
+            "duration" : 7107
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "testFileUpload",
-          "uid" : "dce8ed73a9c682a1",
+          "uid" : "83b3d738f4db316",
           "parentUid" : "23e17bc88a444f43c3a60af9b2c72ae0",
           "status" : "failed",
           "time" : {
-            "start" : 1629095109805,
-            "stop" : 1629095110617,
-            "duration" : 812
+            "start" : 1629095527944,
+            "stop" : 1629095528962,
+            "duration" : 1018
           },
           "flaky" : false,
           "newFailed" : false,
@@ -68,13 +68,13 @@
         "name" : "TestSearchResults",
         "children" : [ {
           "name" : "seaerchForQueryAndAssertThirdResultText",
-          "uid" : "296483a343981564",
+          "uid" : "b79a26513c7d3075",
           "parentUid" : "4b59111168af7c20ffdc9e05e6608c2b",
           "status" : "failed",
           "time" : {
-            "start" : 1629095112821,
-            "stop" : 1629095115221,
-            "duration" : 2400
+            "start" : 1629095531080,
+            "stop" : 1629095533371,
+            "duration" : 2291
           },
           "flaky" : false,
           "newFailed" : false,

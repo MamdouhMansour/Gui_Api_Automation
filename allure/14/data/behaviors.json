@@ -2,26 +2,26 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "TC001 - Check text is not empty ",
-    "uid" : "c0a18bee88f52a05",
+    "uid" : "b86833dc6f093047",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1629094984265,
-      "stop" : 1629095041903,
-      "duration" : 57638
+      "start" : 1629095400625,
+      "stop" : 1629095458641,
+      "duration" : 58016
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "TC001 - Check text is not empty ",
-    "uid" : "4ef00d8f9732c6a9",
+    "uid" : "11229b40a18fa89f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1629095042016,
-      "stop" : 1629095097162,
-      "duration" : 55146
+      "start" : 1629095458735,
+      "stop" : 1629095514188,
+      "duration" : 55453
     },
     "flaky" : false,
     "newFailed" : false,
@@ -30,13 +30,13 @@
     "name" : "Given opened dynamic loading page when press on Example2 then I can see that loading bar in progress and page reloads and redirect to the target link of this dynamic loading page and shows the correct message ",
     "children" : [ {
       "name" : "TC003 - Check dynamic loading Example2",
-      "uid" : "afe52742713ee776",
+      "uid" : "19f72866409a7500",
       "parentUid" : "4f643fc24e73b65f253caa4cf057fb39",
       "status" : "passed",
       "time" : {
-        "start" : 1629095100507,
-        "stop" : 1629095107662,
-        "duration" : 7155
+        "start" : 1629095518192,
+        "stop" : 1629095525299,
+        "duration" : 7107
       },
       "flaky" : false,
       "newFailed" : false,
@@ -47,13 +47,13 @@
     "name" : "Given opened file upload page when choose file to upload and press upload button then I can see that the file chose correclty and page reloads and shows that file uploaded successfully with the correct file name",
     "children" : [ {
       "name" : "TC002 - Check file upload",
-      "uid" : "dce8ed73a9c682a1",
+      "uid" : "83b3d738f4db316",
       "parentUid" : "91b2e543f0ec27d5c9fe10ba5bac54a4",
       "status" : "failed",
       "time" : {
-        "start" : 1629095109805,
-        "stop" : 1629095110617,
-        "duration" : 812
+        "start" : 1629095527944,
+        "stop" : 1629095528962,
+        "duration" : 1018
       },
       "flaky" : false,
       "newFailed" : false,
@@ -64,13 +64,13 @@
     "name" : "Given I am on Google home page When type search keywords and press search Then I can see suggested search list with the right length according to business that fetched from database correctlyand page loads and redirect to search results page with the matching results that matched from the database",
     "children" : [ {
       "name" : "TC001 - Check third search result text",
-      "uid" : "296483a343981564",
+      "uid" : "b79a26513c7d3075",
       "parentUid" : "04f71fe6f887ec430d146e5ddfe71728",
       "status" : "failed",
       "time" : {
-        "start" : 1629095112821,
-        "stop" : 1629095115221,
-        "duration" : 2400
+        "start" : 1629095531080,
+        "stop" : 1629095533371,
+        "duration" : 2291
       },
       "flaky" : false,
       "newFailed" : false,

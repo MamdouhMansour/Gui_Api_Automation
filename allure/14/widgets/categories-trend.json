@@ -6,6 +6,13 @@
     "Product defects" : 4
   }
 }, {
+  "buildOrder" : 14,
+  "reportUrl" : "https://MamdouhMansour.github.io/Gui_Api_Automation/allure/14/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 4
+  }
+}, {
   "buildOrder" : 13,
   "reportUrl" : "https://MamdouhMansour.github.io/Gui_Api_Automation/allure/13/",
   "reportName" : "Allure Report with history",

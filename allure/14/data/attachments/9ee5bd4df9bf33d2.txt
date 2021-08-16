@@ -1,0 +1,10 @@
+
+################################################################################################################################################
+Starting Execution:	[5 out of 5] test cases in the current suite
+Test Method:		[tests.gui.task.TestSearchResults.seaerchForQueryAndAssertThirdResultText]
+Test Description:	[TC001 - Check third search result text]
+################################################################################################################################################
+[ReportManager] Element Action [Type] successfully performed. With the following test data [selenium webdriver]. @16-08-2021 06:32:11.0851 AM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @16-08-2021 06:32:13.0245 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [The Selenium Browser Automation Project :: Documentation ...]. @16-08-2021 06:32:13.0358 AM
+[ReportManager] Assertion [ValidateEquals] FAILED. Expected [What is Selenium WebDriver?] and Actual [The Selenium Browser Automation Project :: Documentation ...]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @16-08-2021 06:32:13.0359 A

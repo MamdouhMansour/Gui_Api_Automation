@@ -1,0 +1,105 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.3.20210519]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution:	[1 out of 5] test cases in the current suite
+Test Method:		[tests.api.task.CatFact.testCatFactResponse]
+Test Description:	[TC001 - Check text is not empty ]
+################################################################################################################################################
+[ReportManager] Response status code: [503], status line: [HTTP/1.1 503 Service Unavailable] @16-08-2021 06:30:58.0483 AM
+[ReportManager] Assertion Failed: Evaluating the actual response status code against the expected one... @16-08-2021 06:30:58.0495 AM
+[ReportManager] Assertion [ValidateEquals] FAILED. Expected [200] and Actual [503]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @16-08-2021 06:30:58.0499 AM
+[ReportManager] API Action [PerformRequest] failed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://cat-fact.herokuapp.com/facts/random?amount=1" | Content Type: "*/*" | Response Time: "56334ms"]. @16-08-2021 06:30:58.0608 AM
+[ReportManager] Successfully created attachment [API Response - Body] @16-08-2021 06:30:58.0610 A
+
+################################################################################################################################################
+Starting Execution:	[2 out of 5] test cases in the current suite
+Test Method:		[tests.api.task.CatFact.testCatFactResponse1]
+Test Description:	[TC001 - Check text is not empty ]
+################################################################################################################################################
+[ReportManager] Response status code: [503], status line: [HTTP/1.1 503 Service Unavailable] @16-08-2021 06:31:54.0171 AM
+[ReportManager] Assertion Failed: Evaluating the actual response status code against the expected one... @16-08-2021 06:31:54.0172 AM
+[ReportManager] Assertion [ValidateEquals] FAILED. Expected [200] and Actual [503]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @16-08-2021 06:31:54.0172 AM
+[ReportManager] API Action [PerformRequest] failed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://cat-fact.herokuapp.com/facts?animal_type=cat,horse" | Content Type: "*/*" | Response Time: "55430ms"]. @16-08-2021 06:31:54.0175 AM
+[ReportManager] Successfully created attachment [API Response - Body] @16-08-2021 06:31:54.0176 A
+[ReportManager] Successfully loaded the following test data file [src/test/resources/TestDataFiles/TestData.xlsx]. @16-08-2021 06:31:55.0196 AM
+[ReportManager] Successfully created attachment [Test Data - Excel] @16-08-2021 06:31:55.0197 A
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @16-08-2021 06:31:55.0204 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @16-08-2021 06:31:55.0232 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @16-08-2021 06:31:56.0490 AM
+[ReportManager] Target URL: [https://the-internet.herokuapp.com/] @16-08-2021 06:31:56.0559 AM
+[ReportManager] Initial URL: [data:,] @16-08-2021 06:31:56.0652 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/]. @16-08-2021 06:31:58.0078 A
+
+################################################################################################################################################
+Starting Execution:	[3 out of 5] test cases in the current suite
+Test Method:		[tests.gui.task.TestHerokuapp.testDynamicLoading]
+Test Description:	[TC003 - Check dynamic loading Example2]
+################################################################################################################################################
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Dynamic Loading]. @16-08-2021 06:31:58.0943 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Example 2: Element rendered after the fact]. @16-08-2021 06:31:59.0557 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Start]. @16-08-2021 06:32:00.0010 AM
+[ReportManager] Waiting for element to be present; elementLocator [By.id: finish], numberOfTries[3], stateOfPresence[true]... @16-08-2021 06:32:00.0015 AM
+[ReportManager] Element Action [WaitForElementToBePresent] successfully performed. With the following test data [waited for the element's state of presence to be (true). Element locator (By.id: finish)]. @16-08-2021 06:32:05.0197 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Hello World!]. @16-08-2021 06:32:05.0295 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [Hello World!] and Actual [Hello World!]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @16-08-2021 06:32:05.0298 A
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - server] @16-08-2021 06:32:05.0419 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - performance] @16-08-2021 06:32:05.0502 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - browser] @16-08-2021 06:32:05.0519 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - driver] @16-08-2021 06:32:05.0816 AM
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @16-08-2021 06:32:05.0890 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @16-08-2021 06:32:05.0890 A
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @16-08-2021 06:32:05.0892 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @16-08-2021 06:32:05.0893 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @16-08-2021 06:32:06.0511 AM
+[ReportManager] Target URL: [https://the-internet.herokuapp.com/] @16-08-2021 06:32:06.0546 AM
+[ReportManager] Initial URL: [data:,] @16-08-2021 06:32:06.0618 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/]. @16-08-2021 06:32:07.0941 A
+
+################################################################################################################################################
+Starting Execution:	[4 out of 5] test cases in the current suite
+Test Method:		[tests.gui.task.TestHerokuapp.testFileUpload]
+Test Description:	[TC002 - Check file upload]
+################################################################################################################################################
+[ReportManager] Element Action [Click] successfully performed. With the following test data [File Upload]. @16-08-2021 06:32:08.0840 AM
+[ReportManager] Element Action [TypeFileLocationForUpload] failed. With the following test data [C://Users//Mamdouh//git//Gui_Api_Automation/img.jpg]. @16-08-2021 06:32:08.0956 A
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - server] @16-08-2021 06:32:09.0055 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - performance] @16-08-2021 06:32:09.0158 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - browser] @16-08-2021 06:32:09.0171 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - driver] @16-08-2021 06:32:09.0346 AM
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @16-08-2021 06:32:09.0409 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @16-08-2021 06:32:09.0410 A
+[ReportManager] Successfully loaded the following test data file [src/test/resources/TestDataFiles/TestData.xlsx]. @16-08-2021 06:32:09.0449 AM
+[ReportManager] Successfully created attachment [Test Data - Excel] @16-08-2021 06:32:09.0450 A
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @16-08-2021 06:32:09.0451 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @16-08-2021 06:32:09.0451 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @16-08-2021 06:32:10.0036 AM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com/] @16-08-2021 06:32:10.0063 AM
+[ReportManager] Initial URL: [data:,] @16-08-2021 06:32:10.0154 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @16-08-2021 06:32:11.0078 A
+
+################################################################################################################################################
+Starting Execution:	[5 out of 5] test cases in the current suite
+Test Method:		[tests.gui.task.TestSearchResults.seaerchForQueryAndAssertThirdResultText]
+Test Description:	[TC001 - Check third search result text]
+################################################################################################################################################
+[ReportManager] Element Action [Type] successfully performed. With the following test data [selenium webdriver]. @16-08-2021 06:32:11.0851 AM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @16-08-2021 06:32:13.0245 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [The Selenium Browser Automation Project :: Documentation ...]. @16-08-2021 06:32:13.0358 AM
+[ReportManager] Assertion [ValidateEquals] FAILED. Expected [What is Selenium WebDriver?] and Actual [The Selenium Browser Automation Project :: Documentation ...]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @16-08-2021 06:32:13.0359 A
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - server] @16-08-2021 06:32:13.0680 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - performance] @16-08-2021 06:32:13.0953 AM
+[ReportManager] Successfully created attachment [Selenium WebDriver Logs - driver] @16-08-2021 06:32:14.0288 AM
+[ReportManager] Browser Action [CloseCurrentWindow] successfully performed. @16-08-2021 06:32:14.0373 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - CloseCurrentWindow - Actual Value] @16-08-2021 06:32:14.0381 A
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @16-08-2021 06:32:14.0431 AM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.3.20210519]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
