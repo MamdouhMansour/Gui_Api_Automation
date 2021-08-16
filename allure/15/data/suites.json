@@ -1,0 +1,89 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "SHAFT_Engine: Sample Test Suite",
+    "children" : [ {
+      "name" : "SHAFT_Engine: Cat Facts API Test",
+      "children" : [ {
+        "name" : "tests.api.task.CatFact",
+        "children" : [ {
+          "name" : "TC001 - Check text is not empty ",
+          "uid" : "96dec840485e282c",
+          "parentUid" : "fcaf53d56b44baebaec423b4e4071fa4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590208218950,
+            "stop" : 1590208225417,
+            "duration" : 6467
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fcaf53d56b44baebaec423b4e4071fa4"
+      } ],
+      "uid" : "c4b062c6b568d7258cf0c7c971fcf286"
+    }, {
+      "name" : "SHAFT_Engine: GUI Test",
+      "children" : [ {
+        "name" : "tests.gui.task.TestSearchResults",
+        "children" : [ {
+          "name" : "TC001 - Check third search result text",
+          "uid" : "3644971ea666e535",
+          "parentUid" : "915fcf9b07acc61b0eba5dff24e94eab",
+          "status" : "failed",
+          "time" : {
+            "start" : 1590208237138,
+            "stop" : 1590208246225,
+            "duration" : 9087
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "915fcf9b07acc61b0eba5dff24e94eab"
+      } ],
+      "uid" : "0e0326a6d0be4466fee517da4cd29a00"
+    } ],
+    "uid" : "5584263cd96a0f5e7f5463b4579f25d4"
+  }, {
+    "name" : "SHAFT: Custom Suite",
+    "children" : [ {
+      "name" : "SHAFT: Custom Test",
+      "children" : [ {
+        "name" : "tests.gui.task.TestHerokuapp",
+        "children" : [ {
+          "name" : "TC003 - Check dynamic loading Example2",
+          "uid" : "5ae1d73f0d6d3968",
+          "parentUid" : "a6dcf51cfd45d96cdb57adfbc7a2a855",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629099341764,
+            "stop" : 1629099348832,
+            "duration" : 7068
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "TC002 - Check file upload",
+          "uid" : "4eafc907cec747c6",
+          "parentUid" : "a6dcf51cfd45d96cdb57adfbc7a2a855",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629099350571,
+            "stop" : 1629099351300,
+            "duration" : 729
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a6dcf51cfd45d96cdb57adfbc7a2a855"
+      } ],
+      "uid" : "62b459a2d7652d6aea6a24c119fa3f77"
+    } ],
+    "uid" : "5543348f55088c3669a8bed2f979ca17"
+  } ],
+  "name" : "suites"
+}

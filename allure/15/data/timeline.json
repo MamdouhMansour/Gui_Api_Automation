@@ -1,0 +1,99 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Mamdouh-PC",
+    "children" : [ {
+      "name" : "11600@Mamdouh-PC.main(1)",
+      "children" : [ {
+        "name" : "TC002 - Check file upload",
+        "uid" : "2c6e96654601084b",
+        "parentUid" : "4cad1484f9f7b64b538cc92d9487d6fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590208285217,
+          "stop" : 1590208292179,
+          "duration" : 6962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC001 - Check text is not empty ",
+        "uid" : "96dec840485e282c",
+        "parentUid" : "4cad1484f9f7b64b538cc92d9487d6fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590208218950,
+          "stop" : 1590208225417,
+          "duration" : 6467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC001 - Check third search result text",
+        "uid" : "3644971ea666e535",
+        "parentUid" : "4cad1484f9f7b64b538cc92d9487d6fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590208237138,
+          "stop" : 1590208246225,
+          "duration" : 9087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC003 - Check dynamic loading Example2",
+        "uid" : "c49f3b5d45b16aac",
+        "parentUid" : "4cad1484f9f7b64b538cc92d9487d6fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590208260863,
+          "stop" : 1590208274816,
+          "duration" : 13953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cad1484f9f7b64b538cc92d9487d6fd"
+    } ],
+    "uid" : "293615a48c9cdc3ede560b221eedf318"
+  }, {
+    "name" : "fv-az39-798",
+    "children" : [ {
+      "name" : "3837@fv-az39-798.main(1)",
+      "children" : [ {
+        "name" : "TC003 - Check dynamic loading Example2",
+        "uid" : "5ae1d73f0d6d3968",
+        "parentUid" : "cb6b1c72a453f2f45cca1957e55228af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629099341764,
+          "stop" : 1629099348832,
+          "duration" : 7068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC002 - Check file upload",
+        "uid" : "4eafc907cec747c6",
+        "parentUid" : "cb6b1c72a453f2f45cca1957e55228af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629099350571,
+          "stop" : 1629099351300,
+          "duration" : 729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb6b1c72a453f2f45cca1957e55228af"
+    } ],
+    "uid" : "aa51752432925f16c5fcf496ead34f52"
+  } ],
+  "name" : "timeline"
+}
