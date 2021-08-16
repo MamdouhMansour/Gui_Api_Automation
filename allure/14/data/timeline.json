@@ -1,0 +1,138 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az28-876",
+    "children" : [ {
+      "name" : "3920@fv-az28-876.main(1)",
+      "children" : [ {
+        "name" : "TC001 - Check text is not empty ",
+        "uid" : "4ef00d8f9732c6a9",
+        "parentUid" : "e494bc6482abd5256f6f7487a44420c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629095042016,
+          "stop" : 1629095097162,
+          "duration" : 55146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC002 - Check file upload",
+        "uid" : "dce8ed73a9c682a1",
+        "parentUid" : "e494bc6482abd5256f6f7487a44420c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629095109805,
+          "stop" : 1629095110617,
+          "duration" : 812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC003 - Check dynamic loading Example2",
+        "uid" : "afe52742713ee776",
+        "parentUid" : "e494bc6482abd5256f6f7487a44420c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629095100507,
+          "stop" : 1629095107662,
+          "duration" : 7155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC001 - Check third search result text",
+        "uid" : "296483a343981564",
+        "parentUid" : "e494bc6482abd5256f6f7487a44420c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629095112821,
+          "stop" : 1629095115221,
+          "duration" : 2400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC001 - Check text is not empty ",
+        "uid" : "c0a18bee88f52a05",
+        "parentUid" : "e494bc6482abd5256f6f7487a44420c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629094984265,
+          "stop" : 1629095041903,
+          "duration" : 57638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e494bc6482abd5256f6f7487a44420c8"
+    } ],
+    "uid" : "55dbfcc6d7433a042e9231624774b20d"
+  }, {
+    "name" : "Mamdouh-PC",
+    "children" : [ {
+      "name" : "11600@Mamdouh-PC.main(1)",
+      "children" : [ {
+        "name" : "TC001 - Check text is not empty ",
+        "uid" : "91d0bea672a9ebeb",
+        "parentUid" : "4cad1484f9f7b64b538cc92d9487d6fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590208218950,
+          "stop" : 1590208225417,
+          "duration" : 6467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC003 - Check dynamic loading Example2",
+        "uid" : "35b146741674b18c",
+        "parentUid" : "4cad1484f9f7b64b538cc92d9487d6fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590208260863,
+          "stop" : 1590208274816,
+          "duration" : 13953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC002 - Check file upload",
+        "uid" : "39b45bf3b81f69ac",
+        "parentUid" : "4cad1484f9f7b64b538cc92d9487d6fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590208285217,
+          "stop" : 1590208292179,
+          "duration" : 6962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC001 - Check third search result text",
+        "uid" : "623e2152dd9b7ef8",
+        "parentUid" : "4cad1484f9f7b64b538cc92d9487d6fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590208237138,
+          "stop" : 1590208246225,
+          "duration" : 9087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cad1484f9f7b64b538cc92d9487d6fd"
+    } ],
+    "uid" : "293615a48c9cdc3ede560b221eedf318"
+  } ],
+  "name" : "timeline"
+}

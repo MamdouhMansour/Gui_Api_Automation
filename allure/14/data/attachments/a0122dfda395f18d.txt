@@ -1,0 +1,12 @@
+
+################################################################################################################################################
+Starting Execution:	[2 out of 4] test cases in the current suite
+Test Method:		[tests.gui.task.TestSearchResults.seaerchForQueryAndAssertThirdResultText]
+Test Description:	[TC001 - Check third search result text]
+################################################################################################################################################
+[ReportManager] File Action [createFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20200523-063018", Target File: "\1590208238370_seaerchForQueryAndAssertThirdResultText.gif"]. @23-05-2020 06:30:38.0425 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [selenium webdriver]. @23-05-2020 06:30:39.0321 AM
+[ReportManager] Element Action [keyPress] successfully performed. With the following test data [ENTER]. @23-05-2020 06:30:45.0321 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [The Selenium Browser Automation Project :: Documentation ...]. @23-05-2020 06:30:46.0205 AM
+[ReportManager] AssertEquals FAILED; Expected [What is Selenium WebDriver?] and Actual [The Selenium Browser Automation Project :: Documentation ...]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @23-05-2020 06:30:46.0208 AM
+[ReportManager] Successfully created attachment [Animated Gif - seaerchForQueryAndAssertThirdResultText] @23-05-2020 06:30:46.0211 AM

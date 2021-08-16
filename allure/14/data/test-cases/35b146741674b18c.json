@@ -1,0 +1,505 @@
+{
+  "uid" : "35b146741674b18c",
+  "name" : "TC003 - Check dynamic loading Example2",
+  "fullName" : "tests.gui.task.TestHerokuapp.testDynamicLoading",
+  "historyId" : "eb4dcbd91fabb985d130c779e50e7dd8",
+  "time" : {
+    "start" : 1590208260863,
+    "stop" : 1590208274816,
+    "duration" : 13953
+  },
+  "description" : "Check that loading working successfully",
+  "descriptionHtml" : "<p>Check that loading working successfully</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1590208251084,
+      "stop" : 1590208260852,
+      "duration" : 9768
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [16]: Attempting to run locally on: [Windows-64], [GoogleChrome].",
+      "time" : {
+        "start" : 1590208251085,
+        "stop" : 1590208251085,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Attempting to run locally on: [Windows-64], [GoogleChrome]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "16"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [17]: Identifying OS/Browser combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...",
+      "time" : {
+        "start" : 1590208251085,
+        "stop" : 1590208251085,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Identifying OS/Browser combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time..."
+      }, {
+        "name" : "actionCounter",
+        "value" : "17"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [18]: Successfully Opened Google Chrome.",
+      "time" : {
+        "start" : 1590208254267,
+        "stop" : 1590208254268,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Successfully Opened Google Chrome."
+      }, {
+        "name" : "actionCounter",
+        "value" : "18"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [19]: Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1552, 840)].",
+      "time" : {
+        "start" : 1590208257633,
+        "stop" : 1590208257634,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1552, 840)]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "19"
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [20]: Browser Action [navigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/].",
+      "time" : {
+        "start" : 1590208260852,
+        "stop" : 1590208260852,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Browser Action [navigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "20"
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Check that loading working successfully",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [23]: Element Action [click] successfully performed. With the following test data [Dynamic Loading].",
+      "time" : {
+        "start" : 1590208263756,
+        "stop" : 1590208263756,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Element Action [click] successfully performed. With the following test data [Dynamic Loading]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "23"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [24]: Element Action [click] successfully performed. With the following test data [Example 2: Element rendered after the fact].",
+      "time" : {
+        "start" : 1590208266170,
+        "stop" : 1590208266170,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Element Action [click] successfully performed. With the following test data [Example 2: Element rendered after the fact]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "24"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [25]: Element Action [click] successfully performed. With the following test data [Start].",
+      "time" : {
+        "start" : 1590208268080,
+        "stop" : 1590208268080,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Element Action [click] successfully performed. With the following test data [Start]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "25"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [26]: Element Action [waitForElementToBePresent] successfully performed. With the following test data [waited up to (15) seconds, for the element's state of presence to be (true). Element locator (By.id: finish)].",
+      "time" : {
+        "start" : 1590208273936,
+        "stop" : 1590208273937,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Element Action [waitForElementToBePresent] successfully performed. With the following test data [waited up to (15) seconds, for the element's state of presence to be (true). Element locator (By.id: finish)]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "26"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [27]: Element Action [getText] successfully performed. With the following test data [Hello World!].",
+      "time" : {
+        "start" : 1590208274787,
+        "stop" : 1590208274788,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Element Action [getText] successfully performed. With the following test data [Hello World!]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "27"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [28]: AssertEquals PASSED; Expected [Hello World!] and Actual [Hello World!]. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1590208274788,
+        "stop" : 1590208274788,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "AssertEquals PASSED; Expected [Hello World!] and Actual [Hello World!]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "actionCounter",
+        "value" : "28"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [29]: An Exception Occured with this Message: Session ID is null. Using WebDriver after calling quit()?.",
+      "time" : {
+        "start" : 1590208274814,
+        "stop" : 1590208274815,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13e009ed9d6f3e0d",
+        "name" : "Attachment: Exception Stack Trace - org.openqa.selenium.NoSuchSessionException",
+        "source" : "13e009ed9d6f3e0d.txt",
+        "type" : "text/plain",
+        "size" : 2511
+      } ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "An Exception Occured with this Message: Session ID is null. Using WebDriver after calling quit()?."
+      }, {
+        "name" : "actionCounter",
+        "value" : "29"
+      }, {
+        "name" : "attachments",
+        "value" : "[[Exception Stack Trace, org.openqa.selenium.NoSuchSessionException, org.openqa.selenium.NoSuchSessionException:\r\nSession ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'MAMDOUH-PC', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'\nDriver info: driver.version: RemoteWebDriver\r\norg.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\norg.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\norg.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:922)\r\ncom.shaft.gui.element.ElementActions.switchToDefaultContent(ElementActions.java:888)\r\ncom.shaft.tools.listeners.InvokedMethodListener.afterInvocation(InvokedMethodListener.java:81)\r\norg.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:60)\r\norg.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:55)\r\norg.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:631)\r\norg.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\norg.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\norg.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\r\norg.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\norg.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\norg.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\njava.base/java.util.ArrayList.forEach(ArrayList.java:1507)\r\norg.testng.TestRunner.privateRun(TestRunner.java:766)\r\norg.testng.TestRunner.run(TestRunner.java:587)\r\norg.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\norg.testng.SuiteRunner.run(SuiteRunner.java:286)\r\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\norg.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\norg.testng.TestNG.runSuites(TestNG.java:1039)\r\norg.testng.TestNG.run(TestNG.java:1007)\r\norg.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\norg.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\norg.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8413ab7934a70856",
+      "name" : "Attachment: Animated Gif - testDynamicLoading",
+      "source" : "8413ab7934a70856.gif",
+      "type" : "image/gif",
+      "size" : 211003
+    }, {
+      "uid" : "c8d35a8152730d66",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: testDynamicLoading",
+      "source" : "c8d35a8152730d66.txt",
+      "type" : "text/plain",
+      "size" : 1989
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1590208274818,
+      "stop" : 1590208275501,
+      "duration" : 683
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [31]: Browser Action [closeCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1590208275498,
+        "stop" : 1590208275501,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c6219961d520751",
+        "name" : "Attachment: Browser Action Test Data - closeCurrentWindow - Actual Value",
+        "source" : "5c6219961d520751.html",
+        "type" : "text/html",
+        "size" : 2292
+      } ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Browser Action [closeCurrentWindow] successfully performed."
+      }, {
+        "name" : "actionCounter",
+        "value" : "31"
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - closeCurrentWindow, Actual Value, <html class=\"no-js\" lang=\"en\"><!--<![endif]--><head>\n    <script src=\"/js/vendor/298279967.js\"></script>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title>The Internet</title>\n    <link href=\"/css/app.css\" rel=\"stylesheet\">\n    <link href=\"/css/font-awesome.css\" rel=\"stylesheet\">\n    <script src=\"/js/vendor/jquery-1.11.3.min.js\"></script>\n    <script src=\"/js/vendor/jquery-ui-1.11.4/jquery-ui.js\"></script>\n    <script src=\"/js/foundation/foundation.js\"></script><meta class=\"foundation-mq-small\"><meta class=\"foundation-mq-medium\"><meta class=\"foundation-mq-large\"><style></style>\n    <script src=\"/js/foundation/foundation.alerts.js\"></script>\n    <script>\n      $(document).foundation();\n    </script>\n  </head>\n  <body>\n    <div class=\"row\">\n      <div id=\"flash-messages\" class=\"large-12 columns\">\n      \n        \n      \n        \n      \n        \n      \n      </div>\n    </div>\n    <div class=\"row\">\n      <a href=\"https://github.com/tourdedave/the-internet\"><img style=\"position: absolute; top: 0; right: 0; border: 0;\" src=\"/img/forkme_right_green_007200.png\" alt=\"Fork me on GitHub\"></a>\n      <div id=\"content\" class=\"large-12 columns\">\n        <script>\n  $(function(){\n    $('#start button').click(function(){\n      $('#start').hide();\n      $('#start').before(\"<div id='loading'>Loading... <img src='/img/ajax-loader.gif'></div>\");\n      setTimeout(function() {\n        $('#loading').hide();\n        $('#loading').before(\"<div id='finish' style='display:none'><h4>Hello World!</h4></div>\")\n        $('#finish').show();\n      } , 5000 );\n    });\n  });\n</script>\n\n<div class=\"example\">\n  <h3>Dynamically Loaded Page Elements</h3>\n  <h4>Example 2: Element rendered after the fact</h4>\n\n  <br>\n\n  <div id=\"finish\" style=\"\"><h4>Hello World!</h4></div><div id=\"loading\" style=\"display: none;\">Loading... <img src=\"/img/ajax-loader.gif\"></div><div id=\"start\" style=\"display: none;\">\n    <button>Start</button>\n  </div>\n\n\n  <br>\n</div>\n\n      </div>\n    </div>\n    <div id=\"page-footer\" class=\"row\">\n      <div class=\"large-4 large-centered columns\">\n        <hr>\n        <div style=\"text-align: center;\">Powered by <a target=\"_blank\" href=\"http://elementalselenium.com/\">Elemental Selenium</a></div>\n      </div>\n    </div>\n  \n\n</body></html>]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9e7a6a20f6e883b2",
+      "name" : "Attachment: Selenium WebDriver Logs - browser",
+      "source" : "9e7a6a20f6e883b2.txt",
+      "type" : "text/plain",
+      "size" : 2366
+    }, {
+      "uid" : "6d15bd252c2a8acf",
+      "name" : "Attachment: Selenium WebDriver Logs - driver",
+      "source" : "6d15bd252c2a8acf.txt",
+      "type" : "text/plain",
+      "size" : 946
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1590208292904,
+      "stop" : 1590208292924,
+      "duration" : 20
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [51]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1590208292907,
+        "stop" : 1590208292907,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      }, {
+        "name" : "actionCounter",
+        "value" : "51"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [52]: Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1590208292921,
+        "stop" : 1590208292922,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b92535fae94a3083",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20200523-063132",
+        "source" : "b92535fae94a3083.csv",
+        "type" : "text/csv",
+        "size" : 148
+      } ],
+      "parameters" : [ {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "actionCounter",
+        "value" : "52"
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20200523-063132, java.io.ByteArrayInputStream@7dfc0fda]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c4532406682d670",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20200523-063132",
+      "source" : "c4532406682d670.txt",
+      "type" : "text/plain",
+      "size" : 14084
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.gui.task.TestHerokuapp"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.gui.task.TestHerokuapp"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDynamicLoading"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Sample Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: GUI Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.gui.task.TestHerokuapp"
+  }, {
+    "name" : "host",
+    "value" : "Mamdouh-PC"
+  }, {
+    "name" : "thread",
+    "value" : "11600@Mamdouh-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Given opened dynamic loading page when press on Example2 then I can see that loading bar in progress and page reloads and redirect to the target link of this dynamic loading page and shows the correct message "
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35b146741674b18c.json",
+  "parameterValues" : [ ]
+}
